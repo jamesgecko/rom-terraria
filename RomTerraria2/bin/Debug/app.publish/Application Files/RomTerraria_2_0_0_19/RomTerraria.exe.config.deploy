@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+    <configSections>
+        <sectionGroup name="userSettings" type="System.Configuration.UserSettingsGroup, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" >
+            <section name="RomTerraria.Properties.Settings" type="System.Configuration.ClientSettingsSection, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" allowExeDefinition="MachineToLocalUser" requirePermission="false" />
+        </sectionGroup>
+    </configSections>
+    <userSettings>
+        <RomTerraria.Properties.Settings>
+            <setting name="GameWidth" serializeAs="String">
+                <value>800</value>
+            </setting>
+            <setting name="GameHeight" serializeAs="String">
+                <value>600</value>
+            </setting>
+            <setting name="GameResizeMode" serializeAs="String">
+                <value>0</value>
+            </setting>
+            <setting name="UseInternalFonts" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="UseTexturePacks" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="LastTexturePack" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="UseHiDef" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="LocalMinimap" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="GlobalMinimap" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="RegenMana" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="RegenHealth" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="RegenTimer" serializeAs="String">
+                <value>100</value>
+            </setting>
+            <setting name="ManaBoots" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="LabelNPCRooms" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="InGameClock" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="ProfanityFilter" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="ShowTooltip" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="ResizeBackgrounds" serializeAs="String">
+                <value>False</value>
+            </setting>
+        </RomTerraria.Properties.Settings>
+    </userSettings>
+</configuration>

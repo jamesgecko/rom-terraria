@@ -1,0 +1,15 @@
+C:\Users\Rom\documents\visual studio 2010\Projects\RomTerraria2\RomTerraria2\bin\Release\RomTerraria.exe.config
+C:\Users\Rom\documents\visual studio 2010\Projects\RomTerraria2\RomTerraria2\bin\Release\RomTerraria.exe.manifest
+C:\Users\Rom\documents\visual studio 2010\Projects\RomTerraria2\RomTerraria2\bin\Release\RomTerraria.application
+C:\Users\Rom\documents\visual studio 2010\Projects\RomTerraria2\RomTerraria2\bin\Release\RomTerraria.exe
+C:\Users\Rom\documents\visual studio 2010\Projects\RomTerraria2\RomTerraria2\bin\Release\RomTerraria.pdb
+C:\Users\Rom\documents\visual studio 2010\Projects\RomTerraria2\RomTerraria2\bin\Release\ICSharpCode.SharpZipLib.dll
+C:\Users\Rom\documents\visual studio 2010\Projects\RomTerraria2\RomTerraria2\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Users\Rom\documents\visual studio 2010\Projects\RomTerraria2\RomTerraria2\obj\x86\Release\RomTerraria.Launcher.resources
+C:\Users\Rom\documents\visual studio 2010\Projects\RomTerraria2\RomTerraria2\obj\x86\Release\RomTerraria.Properties.Resources.resources
+C:\Users\Rom\documents\visual studio 2010\Projects\RomTerraria2\RomTerraria2\obj\x86\Release\GenerateResource.read.1.tlog
+C:\Users\Rom\documents\visual studio 2010\Projects\RomTerraria2\RomTerraria2\obj\x86\Release\GenerateResource.write.1.tlog
+C:\Users\Rom\documents\visual studio 2010\Projects\RomTerraria2\RomTerraria2\obj\x86\Release\RomTerraria.exe.manifest
+C:\Users\Rom\documents\visual studio 2010\Projects\RomTerraria2\RomTerraria2\obj\x86\Release\RomTerraria.application
+C:\Users\Rom\documents\visual studio 2010\Projects\RomTerraria2\RomTerraria2\obj\x86\Release\RomTerraria.exe
+C:\Users\Rom\documents\visual studio 2010\Projects\RomTerraria2\RomTerraria2\obj\x86\Release\RomTerraria.pdb

@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xrml="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <assemblyIdentity name="RomTerraria.application" version="2.0.0.25" publicKeyToken="0e19e3938dc72973" language="neutral" processorArchitecture="x86" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <description asmv2:publisher="Michael Russell" asmv2:product="RomTerraria" asmv2:supportUrl="http://romsteady.blogspot.com/2011/05/terraria-trainerresolution-launcher.html" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <deployment install="true" mapFileExtensions="true">
+    <subscription>
+      <update>
+        <beforeApplicationStartup />
+      </update>
+    </subscription>
+    <deploymentProvider codebase="http://www.romsteady.net/rtinstall/RomTerraria.application" />
+  </deployment>
+  <compatibleFrameworks xmlns="urn:schemas-microsoft-com:clickonce.v2">
+    <framework targetVersion="4.0" profile="Client" supportedRuntime="4.0.30319" />
+    <framework targetVersion="4.0" profile="Full" supportedRuntime="4.0.30319" />
+  </compatibleFrameworks>
+  <dependency>
+    <dependentAssembly dependencyType="install" codebase="Application Files\RomTerraria_2_0_0_25\RomTerraria.exe.manifest" size="9973">
+      <assemblyIdentity name="RomTerraria.exe" version="2.0.0.25" publicKeyToken="0e19e3938dc72973" language="neutral" processorArchitecture="x86" type="win32" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>kmK0eF6OlNW71ARrKqtOk69zIQ4=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+<publisherIdentity name="CN=RomXPS\Rom" issuerKeyHash="a81537e9bc2d9b4677f672b4f6d520078e87a58f" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>DY55Nx6vBdHH6VV8S9GxPYMod/k=</DigestValue></Reference></SignedInfo><SignatureValue>rr6cKub4B9Pwj2WZEenKI/icu4yUfX8ttsIOOoCByq6FFIdk7RPWEHRWJaGN0fU59zPaiBumW1z2TRbjNLq5WRvMIWOC1NJqjfakFk5h2xXNK/+NaHnVZSbZtw5+0cVTQKPwHi0KFwFLzxtCRKVWFWXqffW2fr5zxVLHA6mG4WQ=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>w7mQT0T13DnUGVziItAxnTlHXg4AbUAC0hcZKGZZqeYB82cYB8X8NnaHbwGbuYtd2Ddo8Ea8zAdgn8qVlJs6vrdR7vsjkqXS79pAPkv+U2M2wWQcvkh96PzeXmtdU/Okap6jsrknws8LFnL7xlguXtQam/Lk+TovoOJvv9uXxss=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="f97728833db1d14b7c55e9c7d105af1e37798e0d" Description="" Url=""><as:assemblyIdentity name="RomTerraria.application" version="2.0.0.25" publicKeyToken="0e19e3938dc72973" language="neutral" processorArchitecture="x86" xmlns="urn:schemas-microsoft-com:asm.v1" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=RomXPS\Rom</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>0GoEdWpGxBPK+hca1yCXoNSr9UA=</DigestValue></Reference></SignedInfo><SignatureValue>J0mR138ZHXFKwKVmWAahTZiQWO38wfwo5ctrklHNpGzyUCPqrwY19FFbBUcLmRIRHZ3H5Hlg+q7y7PnInkf28lGBvPk3fCowoMiIn+onf1W4M03oN1AOOq2tbR185DTAapXZW5r9xa1VwiXYuJeDE6gnBJDZNJL4T0t52VWlXiw=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>w7mQT0T13DnUGVziItAxnTlHXg4AbUAC0hcZKGZZqeYB82cYB8X8NnaHbwGbuYtd2Ddo8Ea8zAdgn8qVlJs6vrdR7vsjkqXS79pAPkv+U2M2wWQcvkh96PzeXmtdU/Okap6jsrknws8LFnL7xlguXtQam/Lk+TovoOJvv9uXxss=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBwTCCASqgAwIBAgIQOrblVdfICYdNyL61skYiqTANBgkqhkiG9w0BAQUFADAfMR0wGwYDVQQDHhQAUgBvAG0AWABQAFMAXABSAG8AbTAeFw0xMTA3MDMwMDI1MDdaFw0xMjA3MDIwNjI1MDdaMB8xHTAbBgNVBAMeFABSAG8AbQBYAFAAUwBcAFIAbwBtMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDDuZBPRPXcOdQZXOIi0DGdOUdeDgBtQALSFxkoZlmp5gHzZxgHxfw2dodvAZu5i13YN2jwRrzMB2CfypWUmzq+t1Hu+yOSpdLv2kA+S/5TYzbBZBy+SH3o/N5ea11T86RqnqOyuSfCzwsWcvvGWC5e1Bqb8uT5Oi+g4m+/25fGywIDAQABMA0GCSqGSIb3DQEBBQUAA4GBAGNJCFpzH3wPyfu5pYvMRwVHcBtFPm7LWTgWMFDBtpYVL55KpnSkSzl1ockETnJKSExkZFU+fgmaVbaHrJEBltiws92AG3Br/h1NQBW3XkVtn5p9hhKCnY6wC3EK7ivUhA0BELD0lOu7Fn3cWHZ3wCXHSwOgIjwkPGy2ZU1S21/k</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

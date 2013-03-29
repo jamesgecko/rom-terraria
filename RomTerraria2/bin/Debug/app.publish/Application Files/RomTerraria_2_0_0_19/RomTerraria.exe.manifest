@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1">
+  <asmv1:assemblyIdentity name="RomTerraria.exe" version="2.0.0.19" publicKeyToken="0e19e3938dc72973" language="neutral" processorArchitecture="x86" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="RomTerraria" version="2.0.4362.25735" language="neutral" processorArchitecture="x86" />
+    <commandLine file="RomTerraria.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Xna.Framework" version="4.0.0.0" publicKeyToken="842CF8BE1DE50553" language="neutral" processorArchitecture="x86" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Xna.Framework.Game" version="4.0.0.0" publicKeyToken="842CF8BE1DE50553" language="neutral" processorArchitecture="x86" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Xna.Framework.GamerServices" version="4.0.0.0" publicKeyToken="842CF8BE1DE50553" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Xna.Framework.Graphics" version="4.0.0.0" publicKeyToken="842CF8BE1DE50553" language="neutral" processorArchitecture="x86" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Xna.Framework.Input.Touch" version="4.0.0.0" publicKeyToken="842CF8BE1DE50553" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Xna.Framework.Xact" version="4.0.0.0" publicKeyToken="842CF8BE1DE50553" language="neutral" processorArchitecture="x86" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ICSharpCode.SharpZipLib.dll" size="200704">
+      <assemblyIdentity name="ICSharpCode.SharpZipLib" version="0.86.0.518" publicKeyToken="1B03E6ACF1164F73" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>ep35wl1JaQtqPEUWB9MRqGaxMfQ=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="RomTerraria.exe" size="140800">
+      <assemblyIdentity name="RomTerraria" version="2.0.4362.25735" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>XKrdiKije1b+1DygU8PMsT9AO38=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Terraria.exe" size="1352192">
+      <assemblyIdentity name="Terraria" version="1.0.4.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>HzzQV0wiiAzLFzbU2NGgEJ/ICMY=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="License.txt" size="290">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>DlSsZX8JtB4u600Ayr9H0uUBhM8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="RomTerraria.exe.config" size="2945">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>o3fpGhPpCWgRvJvpYYTAhvORLP8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=RomXPS\Rom" issuerKeyHash="a81537e9bc2d9b4677f672b4f6d520078e87a58f" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>eC5qeGag0wfuWanh5SA8YWJGFc4=</DigestValue></Reference></SignedInfo><SignatureValue>CAR0CoOp5fPEhh2dJ4QXGqwL4EH0gXSRL8lj0dJ0T4oDfJrbqb4XbLmJPm0Nwv+oaAhVVQZOjsFHvqu8f5F/csYKiwLIZPTr1V8AvD8owCFaM8pBN5QbiPmDKyQGVbdOr6L+5My0/NGvlS4CU8aeVc56UArQw7M8uVTnWGJu46s=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>w7mQT0T13DnUGVziItAxnTlHXg4AbUAC0hcZKGZZqeYB82cYB8X8NnaHbwGbuYtd2Ddo8Ea8zAdgn8qVlJs6vrdR7vsjkqXS79pAPkv+U2M2wWQcvkh96PzeXmtdU/Okap6jsrknws8LFnL7xlguXtQam/Lk+TovoOJvv9uXxss=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="ce154662613c20e5e1a959ee07d3a066786a2e78" Description="" Url=""><as:assemblyIdentity name="RomTerraria.exe" version="2.0.0.19" publicKeyToken="0e19e3938dc72973" language="neutral" processorArchitecture="x86" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=RomXPS\Rom</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>ob/CSKiOzRSaC7n43oXbDOVvrcM=</DigestValue></Reference></SignedInfo><SignatureValue>r8aEDQZG4nXuMDkpt4Pw1ofRP47qUAitzTR6qy0WjtLkRmLBrN9SjbAN/mZseGxQg1kzcckC3M2qmtEaLGQRyMGwXgjfFGoTruAnxZ6I0rB3EnLH6ZvuHDvf+z5eWg/uRERVhkK0tuI2MaOFsJfcx6TbhEeAyLamdl+WfyQMkPU=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>w7mQT0T13DnUGVziItAxnTlHXg4AbUAC0hcZKGZZqeYB82cYB8X8NnaHbwGbuYtd2Ddo8Ea8zAdgn8qVlJs6vrdR7vsjkqXS79pAPkv+U2M2wWQcvkh96PzeXmtdU/Okap6jsrknws8LFnL7xlguXtQam/Lk+TovoOJvv9uXxss=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBwTCCASqgAwIBAgIQOrblVdfICYdNyL61skYiqTANBgkqhkiG9w0BAQUFADAfMR0wGwYDVQQDHhQAUgBvAG0AWABQAFMAXABSAG8AbTAeFw0xMTA3MDMwMDI1MDdaFw0xMjA3MDIwNjI1MDdaMB8xHTAbBgNVBAMeFABSAG8AbQBYAFAAUwBcAFIAbwBtMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDDuZBPRPXcOdQZXOIi0DGdOUdeDgBtQALSFxkoZlmp5gHzZxgHxfw2dodvAZu5i13YN2jwRrzMB2CfypWUmzq+t1Hu+yOSpdLv2kA+S/5TYzbBZBy+SH3o/N5ea11T86RqnqOyuSfCzwsWcvvGWC5e1Bqb8uT5Oi+g4m+/25fGywIDAQABMA0GCSqGSIb3DQEBBQUAA4GBAGNJCFpzH3wPyfu5pYvMRwVHcBtFPm7LWTgWMFDBtpYVL55KpnSkSzl1ockETnJKSExkZFU+fgmaVbaHrJEBltiws92AG3Br/h1NQBW3XkVtn5p9hhKCnY6wC3EK7ivUhA0BELD0lOu7Fn3cWHZ3wCXHSwOgIjwkPGy2ZU1S21/k</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
